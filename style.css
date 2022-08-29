@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-ai-c {
+  align-items: center;
+}
+
+.navbar {
+  padding: 0 3rem;
+  height: 10vh;
+  width: 100vw;
+  background-color: #be3144;
+  color: #fff;
+  position: fixed;
+}
+
+.navbar--links ul li a {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.navbar--links ul li a:hover {
+  opacity: 0.8;
+}
+
+section {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.home {
+  height: 100vh;
+  background-color: #222;
+  color: #f5f5f5;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.work {
+  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  /* grid-row-gap: 2rem; */
+
+  background-color: #45567d;
+}
+
+.work .card img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.work .card .text {
+  height: 40px;
+  background-color: #303841;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.work .card .text > span {
+  visibility: hidden;
+}
+
+.work .card .text > span:hover {
+  visibility: hidden;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  height: 15rem;
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.left{
+  align-items: start;
+}
+.right{
+  width: 100;
+  align-items: end;
+}
+.create{
+  color: #be3144;
+  margin: 1rem;
+  padding: 1rem;
+}
