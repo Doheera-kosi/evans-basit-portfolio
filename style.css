@@ -77,7 +77,6 @@ section {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 2rem;
   /* grid-row-gap: 2rem; */
-
   background-color: #45567d;
 }
 
@@ -121,13 +120,16 @@ section {
   justify-content: space-between;
   padding: 1rem;
 }
+
 .left{
   align-items: start;
 }
+
 .right{
   width: 100;
   align-items: end;
 }
+
 .create{
   color: #be3144;
   margin: 1rem;
